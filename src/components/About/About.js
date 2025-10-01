@@ -23,20 +23,19 @@ function About() {
         </ScrollAnimation>
           <div className="AboutBio">
             <ScrollAnimation animateIn="fadeInLeft">
-            Hello! My name is <strong>Pedro Muniz</strong>. I'm originally from Brazil and have been living in Canada for the past three years. During my time here, I gained valuable experience through various entry-level positions, which greatly enhanced my work ethic, communication skills, and adaptability.
+            I’m Rohan , a Master’s in Computer Science student at California State University, Long Beach, with a strong foundation in full-stack development, AI, and systems programming. Skilled in Java, Python, JavaScript, and modern frameworks, I enjoy solving problems by building scalable and efficient solutions.
             </ScrollAnimation>
 
             <br /><br />
             
             <ScrollAnimation animateIn="fadeInLeft">
-            My journey into the world of technology began with a strong passion for problem-solving, which led me to pursue the Computer Systems Technology program. Despite its challenges, I remained determined and forged lasting friendships that supported me throughout this demanding program.
-            Throughout my studies at BCIT, I had the opportunity to engage in fascinating projects. Notably, I contributed to the development of the RENR Safety App and MyMind, projects that garnered recognition from my colleagues, instructors, and clients alike.
+            My experience spans projects like an online code compiler, a traffic congestion predictor, and a financial management dashboard. I’m currently developing the Family Cash Card app using the MERN stack, combining my interests in web technologies, databases, and user-focused design.
             </ScrollAnimation>
 
             <br /><br />
 
             <ScrollAnimation animateIn="fadeInLeft">
-              Working collaboratively within a team towards a shared objective has been an incredibly rewarding and unique experience for me. I am eager to continue exploring exciting projects in the future, with a particular interest in web development and cross-platform mobile development.
+              Outside academics, I’ve led as Vice Chair of the IEEE Student Chapter, represented my university in basketball, and volunteered in community relief initiatives. Looking ahead, I aim to build a blockchain-driven startup in India to make secure and transparent transactions widely accessible.
               <div className="tagline2">
                 I have become confident using the following technologies:
               </div>
