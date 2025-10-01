@@ -1,46 +1,55 @@
-**Portfolio**
-Live Preview - [Click Here](https://salesp07.github.io/)
+# 👋 Hi, I'm Rohan Kommathoti
 
-<br/>
-<div align="center">
-  <img alt="Demo" src="public/mockup.png" />
-</div>
-<br/>
-<br/>
+🎓 Master's in Computer Science student at **California State University, Long Beach**  
+💻 Passionate about **Full Stack Development, Artificial Intelligence, and Blockchain**  
+🏀 Former university **basketball player** | 🌱 Community contributor  
 
-# 🛠 Installation and Setup Instructions
+---
 
-1. Fork and clone this repository. You will need NodeJs and Git installed on your machine..
+## 🧑‍💻 About Me
+- 🔭 Currently exploring **MERN Stack, Deep Learning, and Systems Programming**  
+- 🎯 Career goal: Build a **blockchain-based startup in India** to revolutionize secure transactions  
+- 🌍 Tech enthusiast who loves combining **research, coding, and innovation**  
+- 📚 Strong background in **Java, Python, JavaScript, TypeScript, PHP**  
+- 🗄️ Database skills: **MySQL, MongoDB, Cassandra, Redis**  
+- ⚡ Quick learner with a mix of **academic, project, and leadership experience**  
 
-2. Installation: `npm install --legacy-peer-deps`
+---
 
-3. In the project directory, you can run: `npm start`\
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## 🚀 Projects
+- 🌦 **Weather App** – Simple real-time weather updates.  
+- 🧾 **Bank Statement Analyzer Dashboard** – Built using **Flask & Python**.  
+- 🤖 **Lecture Note Assistant** – OCR + Speech Recognition for students.  
+- 💻 **Online Code Compiler** – Compiles **Java, C, C++, Python, and JS** online.  
+- 🚦 **Traffic Congestion Predictor** – Inspired by my own bus commutes.  
+- 🛠 **Family Cash Card App (In Progress)** – Backend in **Node.js + MySQL**, frontend with **React + TypeScript**.  
 
-# Usage Instructions
+---
 
-1. Open the project folder and Navigate to `/src/assets/data` and add your projects details.
+## ⚙️ Tech Stack
+**Languages:**  
+`Java` `Python` `JavaScript` `TypeScript` `PHP` `C` `C++`
 
-2. You will find all the components used and you can edit your information accordingly.
+**Frameworks & Tools:**  
+`React` `Node.js` `Express` `Flask` `TailwindCSS`
 
-# Deploy with Github Pages
+**Databases:**  
+`MySQL` `MongoDB` `Cassandra` `Redis`
 
-1. Name your fork `<your-github-username>.github.io`
-2. Edit the `homepage` property on your `package.json` file
+---
 
-      `"homepage": "http://<your-github-username>.github.io/"`
+## 🏅 Leadership & Community
+- 🎓 **Vice Chair, IEEE Student Chapter @ VIT-AP** – Organized workshops, guided peers.  
+- 🌊 **Uddeshya Club Volunteer** – Helped with flood relief (Chiguru village).  
+- 🏀 **Basketball Team Player** – Represented university in tournaments.  
 
+---
 
-3. Deploy the app
+## 📫 Connect with Me
+- 💼 [LinkedIn](https://www.linkedin.com/)  
+- 🐙 [GitHub](https://github.com/)  
+- ✉️ Email: your.email@example.com  
 
-   `npm run deploy`
+---
 
-## Contribute
-
-Pull Requests are welcome :)
-
-## Show your support
-
-Give a ⭐ if you like this website!
-# personal-portfolio
+⭐️ *“Code. Learn. Build. Repeat.”*
