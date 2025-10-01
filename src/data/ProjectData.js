@@ -33,7 +33,7 @@ export const ProjectList = [
     description:
       "Built a platform with challenge listings, sector-based filters, project showcases, and partner organization sections and enabled users to post challenges, submit solutions, and track progress",
     tech_stack: ["ReactJs", "NodeJs", "MongoDB","Express","CloudFlare"],
-    github_url: "",
+    github_url: "https://github.com/RohanK-coder/SmartVillage.GenAI`",
     demo_url: "https://smartvillage-genai.netlify.app/",
   },
   
