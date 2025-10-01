@@ -1,6 +1,11 @@
-import React from "react";
+import React, { useEffect } from "react";
 import ProjectCard from "./ProjectCard/ProjectCard";
+import { trackSectionView } from "../../utils/posthog";
 function Projects() {
+  useEffect(() => {
+    trackSectionView('Projects');
+  }, []);
+
   return (
     <>
       <svg

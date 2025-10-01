@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Dropdown from "../Dropdown/Dropdown";
 import Header from "../Header/Header";
 import {
@@ -12,6 +12,7 @@ import {
 } from "./HeroElements";
 import { TypeAnimation } from 'react-type-animation';
 import ScrollAnimation from "react-animate-on-scroll";
+import { trackSectionView, trackUserInteraction } from "../../utils/posthog";
 
 function Hero() {
   const [isOpen, setIsOpen] = useState(false);
@@ -20,7 +21,15 @@ function Hero() {
 
   const toggle = () => {
     setIsOpen(!isOpen);
+    trackUserInteraction('dropdown_toggle', 'header_menu', {
+      is_open: !isOpen
+    });
   };
+
+  // Track when Hero section is viewed
+  useEffect(() => {
+    trackSectionView('Hero');
+  }, []);
   return (
     <main>
       <Dropdown isOpen={isOpen} toggle={toggle} />
@@ -102,7 +111,13 @@ function Hero() {
         </HeroWrapper>
         {showScrollDown &&<ScrollAnimation animateIn="flipInX" offset={0}>
         <ScrollDown to="projects" id="scrollDown">
-          <ScrollLink>
+          <ScrollLink
+            onClick={() => {
+              trackUserInteraction('scroll_down_click', 'hero_scroll_button', {
+                target_section: 'projects'
+              });
+            }}
+          >
             Scroll down
             <img
               src="/scroll-down.svg"

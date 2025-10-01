@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { stackList } from "../../data/ProjectData";
 import {
   Image,
@@ -9,7 +9,12 @@ import {
   ContactWrapper,
 } from "./AboutElements";
 import ScrollAnimation from "react-animate-on-scroll";
+import { trackSectionView } from "../../utils/posthog";
 function About() {
+  useEffect(() => {
+    trackSectionView('About');
+  }, []);
+
   return (
     <ContactWrapper id="about">
       <div className="Container">

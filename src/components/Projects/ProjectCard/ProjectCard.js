@@ -9,6 +9,7 @@ import {
   BtnGroup,
 } from "./ProjectCardElements";
 import ScrollAnimation from "react-animate-on-scroll";
+import { trackProjectClick } from "../../../utils/posthog";
 function ProjectCard() {
   return (
     <>
@@ -33,6 +34,7 @@ function ProjectCard() {
                     href={list.github_url}
                     target="_blank"
                     rel="noopener noreferrer"
+                    onClick={() => trackProjectClick(list.title, 'github', list.github_url)}
                   >
                     Github
                   </a>
@@ -43,6 +45,7 @@ function ProjectCard() {
                     href={list.demo_url}
                     target="_blank"
                     rel="noopener noreferrer"
+                    onClick={() => trackProjectClick(list.title, 'demo', list.demo_url)}
                   >
                     Demo ➜
                   </a>

@@ -1,15 +1,24 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { ContactWrapper, Email } from "./ContactElements";
 import { MdContentCopy } from "react-icons/md";
 import { IconButton, Tooltip } from "@mui/material";
 import Zoom from '@mui/material/Zoom';
 
 import ScrollAnimation from "react-animate-on-scroll";
+import { trackSectionView, trackContactAction } from "../../utils/posthog";
 function Contact() {
   const [showTooltip, setShowTooltip] = useState(false);
+  
+  useEffect(() => {
+    trackSectionView('Contact');
+  }, []);
+
   const copyToClipboard = () => {
-    navigator.clipboard.writeText("pedro.sales.muniz@gmail.com");
+    navigator.clipboard.writeText("rohankommathoti22@gmail.com");
     setShowTooltip(true);
+    trackContactAction('email_copy', {
+      email: 'rohankommathoti22@gmail.com'
+    });
     setTimeout(() => {
       setShowTooltip(false);
     }, 700);
@@ -48,6 +57,9 @@ function Contact() {
                 href="mailto:rohankommathoti22@gmail.com"
                 target="_blank"
                 rel="noopener noreferrer"
+                onClick={() => trackContactAction('email_send_click', {
+                  email: 'rohankommathoti22@gmail.com'
+                })}
               >
                 Send Email
               </a>
