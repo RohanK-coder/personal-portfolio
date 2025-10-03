@@ -48,7 +48,7 @@
 ## 📫 Connect with Me
 - 💼 [LinkedIn](https://www.linkedin.com/)  
 - 🐙 [GitHub](https://github.com/)  
-- ✉️ Email: your.email@example.com  
+- ✉️ Email: rohankommathoti22@gmail.com 
 
 ---
 
