@@ -99,3 +99,4 @@ If events aren't appearing:
 3. Ensure environment variables are loaded
 4. Check PostHog project settings
 5. Verify network connectivity to PostHog servers
+
